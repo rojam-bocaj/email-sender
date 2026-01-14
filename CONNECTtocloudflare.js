@@ -33,8 +33,7 @@
             };
 
             try {
-                await fetch("https://orange-water-431c.jacobmajor162.workers.dev
-", {
+                await fetch("https://orange-water-431c.jacobmajor162.workers.dev", {
                     method: "POST",
                     headers: { "Content-Type": "application/json" },
                     body: JSON.stringify(payload)
